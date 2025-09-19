@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="halaman">
+     <header class="kartu-profil">
+      <img class="foto" src="profil.jpg" alt="Foto Nama Lengkap">
+      <div class="info-profil">
+        <h1 id="nama">Danan Rukmana</h1>
+        <p class="kode-nim">NIM: <strong id="nim">2205903040030</strong></p>
+        <p class="tagline">Mahasiswa Teknologi Informasi — Data Analyst | Business Intelligence Analyst | Data Officer</p>
+      </div>
+    </header>
+
+    <section class="kotak tentang">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya <strong>Danan Rukmana</strong>, Saya adalah mahasiswa Teknologi Informasi semester 7 dengan minat yang kuat pada ilmu data, 
+        Meskipun saya belum memiliki pengalaman kerja formal, saya telah menyelesaikan beberapa program pelatihan bersertifikat untuk 
+        memperkuat keterampilan teknis dan pengetahuan saya di bidang tersebut. Saya adalah pembelajar yang berdedikasi dan penasaran yang selalu 
+        mencari pengetahuan dan tantangan baru. Tujuan saya adalah berkembang menjadi seorang ilmuwan data yang mampu mengubah data menjadi wawasan 
+        berharga yang mendukung pengambilan keputusan yang tepat.
+      </p>
+    </section>
+
+    <section class="kotak pendidikan">
+      <h2>Riwayat Pendidikan</h2>
+      <ul>
+        <li><strong>2022 — Sekarang</strong> — S1 Teknologi Informasi, Universitas Teuku Umar</li>
+        <li><strong>2019 — 2022</strong> — SMA Negeri Satu Singkohor , Jurusan IPA</li>
+      </ul>
+    </section>
+
+    <!-- Keterampilan -->
+    <section class="kotak skill">
+      <h2>Keterampilan</h2>
+      <div class="daftar-skill">
+        <span class="badge">Python for data analis</span>
+        <span class="badge">Excel</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Google Looker Studio</span>
+        <span class="badge">Machine Learning (Junior)</span>
+        <span class="badge">Tableu</span>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="kotak kontak">
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:emailmu@example.com">gmgdanan@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/danan-rukmana" target="_blank" rel="noopener">Danan Rukmana</a></p>
+      <p>GitHub: <a href="https://github.com/DananRukmana" target="_blank" rel="noopener">My Github Acount</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bawah">
+      <p>&copy; <span id="tahun"></span> Danan Rukmana </p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('tahun').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
